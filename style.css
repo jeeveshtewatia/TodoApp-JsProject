@@ -1,0 +1,206 @@
+
+  body{
+  background-color: black;
+  }
+  .container{
+    width: 80%;
+    margin: auto;
+    margin-top: 50px;
+    color: white;
+}
+.container-fluid{
+  position: relative;
+  /* width: 80%;
+    margin: auto;
+    margin-top: 50px;
+    color: white; */
+}
+.task{
+  font-size: 45px;
+  color: white;
+  font-weight: bolder;
+}
+.list{
+  font-size: 45px;
+  color: white;
+  font-weight: 100;
+}
+div i{
+  
+  color: skyblue;
+  font-size: 42px;
+  cursor: pointer;
+}
+.text2{
+  font-size: 45px;
+  color: white;
+  font-weight: lighter;
+}
+  .addbtn {
+  display: inline-block;
+  text-align: right;
+  font-size: 40px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: lighter;
+  padding: 1.3rem;
+  }
+  i {
+  font-size: 2rem;
+  color: #FD5d5d;
+  cursor: pointer;
+  }
+  .card {
+  border: 1px solid #FD5d5d;
+  border-radius: 10px;
+  color: #FD5d5d;
+  width: 75vw;
+  max-width: 350px;
+  z-index: 1;
+  text-align: center;
+  font-family: Roboto, sans-serif;
+  padding: 2.5rem;
+  font-size: 20px;
+  /* box-shadow: 5px 5px 10px rgb(202, 197, 197); */
+  background-color: white;
+  position: absolute;
+  top: 35%;
+  left: 35%;
+  animation:popupbox 0.4s ease-in-out;
+  }
+  input{
+  border-radius: 5px;
+  width: 70%;
+  max-width: 270px;
+  height: 35px;
+  box-shadow: 5px 3px 10px rgb(202, 197, 197);
+  border: 1px solid #FD5d5d;
+  display: block;
+  margin: auto;
+  }
+  .button {
+  width: 80px;
+  height: 35px;
+  font-size: 20px;
+  background-color: #FD5d5d;
+  color: white;
+  border: 0px;
+  border-radius: 20px;
+  cursor: pointer;
+  display: inline-block;
+  margin: 1.5vw;
+  box-sizing: border-box;
+  padding: 0.35rem;
+  }
+  @keyframes card {
+  from {
+    transform: scale(0);
+  }
+  to {
+    transform: scale(1)
+    }
+  }
+  .noitems{
+    font: 100 1.5rem/2rem arial;
+    /* margin-bottom: 30px; */
+  color: white;
+
+} 
+.blur {
+  filter: blur(5px);
+}
+  
+  .static-page{
+    display: flex;
+    /* flex-direction: row; */
+    justify-content: space-between;
+    /* margin: 20px; */
+    /* padding: 20px; */
+
+  }
+  
+  .cardContainer{
+    margin: 20px;
+    padding: 10;
+    color: white;
+    text-align: center; 
+ display: flex; 
+  flex-wrap: wrap;
+  justify-content: space-around;
+    
+  }
+  
+  .buttons {
+    position: absolute;
+    bottom: 1rem;
+    right: 1rem;
+    display: flex;
+    flex-direction: row-reverse;
+  }
+  .buttons i {
+    padding: 0.5rem;
+  }
+  #title{
+    cursor: pointer;
+    font-size: 2rem;
+    border-bottom: 1px solid black;
+    margin-top: 0;
+  }
+  .cards {
+    position: relative;
+    /* border: 5px solid rgb(162, 247, 4); */
+    border: 5px solid #FD5d5d;
+    min-height: 300px;
+    width: 200px;
+    margin: 50px;
+    border-radius: 10px;
+    font-size: 20px;
+    text-align: center;
+    padding: 20px 10px 3.5rem;
+    font-weight: lighter;
+    font-family: Roboto, sans-serif;
+    color: red;
+    /* box-shadow: 5px 5px 10px rgb(209, 204, 204); */
+    background-color: white;
+  }
+  .compBtn{
+    margin: 5px;
+    background-color: skyblue;
+    border-radius: 15px;
+    border: 2px solid transparent;
+  }
+  
+  
+  /* new page css -------------------------------------------------------------------------------*/
+  
+  .new{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-around; */
+    /* margin-top: -650px; */
+    padding: 10px;
+    /* position: absolute; */
+    z-index: 3;
+  }
+  .new-card{
+    text-align: center;
+  }
+  
+  .back{
+    color: white;
+    font-size: 45px;
+    margin: 5px;
+  }
+  .new-card{
+    margin-left: 42%;
+  }
+  h1{
+    font-size: 45px;
+    font-family: Roboto, sans-serif;
+  }
+  .h1{
+    font-size: 45px;
+    margin-left: 33%;
+    padding: 0px;
+    font-family: Roboto, sans-serif;
+  }
