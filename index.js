@@ -1,4 +1,3 @@
-//Add items list
 let addList = document.querySelector("#addingbtn");
 let palcePopUp = document.querySelector(".palcePopUp");
 
@@ -73,7 +72,7 @@ function display() {
       del.addEventListener("click", () => {
         document.querySelector(".cardContainer").removeChild(box);
         if (document.querySelector(".cardContainer").innerText === "") {
-          document.querySelector(".noitem").style.display = "block";
+          document.querySelector(".noitems").style.display = "block";
         }
       });
 
@@ -131,8 +130,6 @@ function display() {
             li.innerText = cardInput.value;
 
             box.appendChild(ul).appendChild(li).appendChild(btn1);
-
-            //----------------end jeevesh----------
 
             btn1.addEventListener("click", function () {
               li.style.textDecoration = "line-through";
@@ -193,6 +190,7 @@ function display() {
             "visible";
           // document.querySelector(".container-fluid").style.display = "block";
           document.querySelector(".pageSecond").style.visibility = "hidden";
+          pageSecond.innerHTML = "";
         });
         ////---------------------------
         del.addEventListener("click", () => {
@@ -203,6 +201,8 @@ function display() {
           document.querySelector(".pageSecond").style.visibility = "hidden";
           // document.querySelector(".pageSecond").style.display = "none";
           document.querySelector(".pageSecond").removeChild(div);
+          pageSecond.innerHTML = "";
+
           div2.removeChild(box);
         });
       });

@@ -6,10 +6,7 @@
   }
 .container-fluid{
   position: relative;
-  /* width: 80%;
-    margin: auto;
-    margin-top: 50px;
-    color: white; */
+  
 }
 .task{
   font-size: 45px;
@@ -162,8 +159,8 @@ border: none;
   
   /*---------------second page css -------------------------*/
   .pageSecond{
-    position: fixed;
-    height: 100Vh;
+    position: absolute;
+    min-height: 100Vh;
     width: 100vw;
     top: 0;
     left: 0;
